@@ -10,10 +10,13 @@
         /*Estrutura Sequencial
             comando de saida 
             declaração de variavel 
-            comando de entrada */
-            var nome = "ana"; 
-            nome = prompt ("Informe o seu nome")
-            alert("Ola!," + nome + "!!!");
+            comando de entrada
+            template string */
+            let num1, num2, soma;
+            num1 = prompt("Informe o num1:");
+            num2 = prompt("Informe o num2:");
+            soma = parseInt(num1) + parseInt(num2);
+            alert(`${num1} + ${num2} = ${soma}`);
 
             document.write("Ola" + nome + "!!!")
             console.log("Ola"  + nome + "!!!")
